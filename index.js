@@ -2,7 +2,7 @@ import http  from "node:http";
 
 const server=http.createServer((req,res)=>{
     if (req.url === "/a/login" && req.method === "GET") {
-        res.end("Hello word");
+        res.end("Anyyeong");
     }    
 });
 
